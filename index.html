@@ -19,7 +19,15 @@
 　<link rel='stylesheet' type='text/css' href='style.css'>
 </head>
   <body>
-  <html contenteditable><style>body{background-color:#000000;color:#00FF00;font-family:menlo;margin:50px 50px}</style>
-  </html>
-  </body>
+  <h1>メモ帳</h1>
+  <form>
+    <input class="task_value" type="text" />
+    <button class="task_submit" type="button">予定を入力</button>
+  </form>
+  <div id="table">
+    <h2>予定表</h2>
+    <ul class="task_list"></ul>
+  </div>
+<script src="main.js"></script>
+</body>
 </html>
