@@ -11,7 +11,7 @@ const addTasks = (task) => {
 
   // タスクに削除ボタンを付与
   const deleteButton = document.createElement('button');
-  deleteButton.innerHTML = '完了'.style.cursor: pointer;;
+  deleteButton.innerHTML = '完了';
   listItem.appendChild(deleteButton);
 
   // 削除ボタンをクリックし、イベントを発動（タスクが削除）
